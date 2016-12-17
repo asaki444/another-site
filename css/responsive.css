@@ -31,3 +31,21 @@
     margin-left: 10px;
   }
 }
+@media screen and (max-width: 367px){
+  section ul li{
+    display:block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5%;
+  }
+    #contact1{
+       text-align:center;
+       padding-left:7%;
+     }
+     footer{
+       clear:both;
+       text-align:center;
+     }
+    }
+
+}
