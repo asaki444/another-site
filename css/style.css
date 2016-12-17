@@ -1,0 +1,83 @@
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+header{
+ font-size: 40px;
+ font-weight: bold;
+ padding: 15px 0 15px 15px;
+ background-color: #75A7F5;
+ margin-bottom: 0;
+ color:white;
+ text-align: center;
+}
+nav{
+margin-top: -20px;
+background-color:#B8D0F7;
+}
+ nav ul{
+   list-style: none;
+    padding: 15px 0 15px 0;
+ }
+ nav ul li{
+   margin: 0 15px 0 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+ }
+ nav ul li:hover{
+   background-color: #d3d3d3;
+ }
+ nav ul a {
+   text-decoration: none;
+   color:white;
+ }
+nav ul li a:visited{
+ text-decoration: none;
+}
+section ul{
+list-style: none;
+padding: 0 0;
+}
+section ul li img{
+  max-width: 100%;
+}
+section ul li{
+display: inline-block;
+width: 40%;
+margin: 4.725%;
+}
+footer{
+  text-align: center;
+  clear:both;
+  margin: 0 auto;
+}
+#bio{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 25px;
+}
+#bioimage{
+  max-width: 100%;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#contact{
+  font-size: 22px;
+  text-align:center;
+}
+#contact1{
+  list-style: none;
+  font-size: 22px;
+  text-align:center;
+}
+
+#contact1 a{
+  text-decoration: none;
+}
+.selected{
+  background-color: #4F618F;
+}
